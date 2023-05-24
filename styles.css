@@ -131,3 +131,39 @@ body, h1, h2, p, ul {
 .menu-list li a:hover {
   background-color: #ddd;
 }
+
+.carousel {
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel img {
+  display: none;
+  height: 600px;
+  margin: auto;
+}
+
+.carousel img.active {
+  display: block;
+}
+
+.carousel-prev,
+.carousel-next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 24px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.carousel-prev {
+  left: 10px;
+}
+
+.carousel-next {
+  right: 10px;
+}
