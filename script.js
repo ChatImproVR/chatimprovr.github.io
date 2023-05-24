@@ -1,14 +1,3 @@
-document.getElementById('organizationButton').addEventListener('click', function() {
-    window.open('https://github.com/ChatImproVR', '_blank');
-  });
-
-document.getElementById('documentationButton').addEventListener('click', function() {
-    window.open('https://chatimprovr.github.io/The-Book/', '_blank');
-  });
-
-document.getElementById('sourceCodeButton').addEventListener('click', function() {
-    window.open('https://github.com/ChatImproVR/chatimprovr', '_blank');
-  });
 
 document.addEventListener("DOMContentLoaded", function() {
   var carouselIndex = 0;
@@ -40,3 +29,21 @@ document.addEventListener("DOMContentLoaded", function() {
   showSlide(carouselIndex);
 });
   
+
+
+document.getElementById('organizationButton').addEventListener('click', function() {
+    window.open('https://github.com/ChatImproVR', '_blank');
+  });
+
+document.getElementById('documentationButton').addEventListener('click', function() {
+    window.open('https://github.com/ChatImproVR/chatimprovr/releases', '_blank');
+  });
+
+document.getElementById('sourceCodeButton').addEventListener('click', function() {
+    window.open('https://github.com/ChatImproVR/chatimprovr', '_blank');
+  });
+
+  
+document.getElementById('theBookButton').addEventListener('click', function() {
+  window.open('https://chatimprovr.github.io/The-Book/Beginner_Tutorial/beginner_plugin_development_tutorial.html', '_blank');
+});
