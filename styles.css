@@ -57,7 +57,7 @@ body, h1, h2, p, ul {
 
 #organizationButton {
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: #2c2c2c;
   color: white;
   border: none;
   border-radius: 4px;
@@ -66,12 +66,12 @@ body, h1, h2, p, ul {
 }
 
 #organizationButton:hover {
-  background-color: #45a049;
+  background-color: #2c2c2c;
 }
 
 #documentationButton {
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: #2c2c2c;
   color: white;
   border: none;
   border-radius: 4px;
@@ -80,12 +80,12 @@ body, h1, h2, p, ul {
 }
 
 #documentationButton:hover {
-  background-color: #45a049;
+  background-color: #2c2c2c;
 }
 
 #sourceCodeButton {
   padding: 10px 20px;
-  background-color: #4CAF50;
+  background-color: #2c2c2c;
   color: white;
   border: none;
   border-radius: 4px;
@@ -94,7 +94,7 @@ body, h1, h2, p, ul {
 }
 
 #sourceCodeButton:hover {
-  background-color: #45a049;
+  background-color: #2c2c2c;
 }
 
   
