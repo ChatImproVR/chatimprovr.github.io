@@ -31,17 +31,17 @@ document.addEventListener("DOMContentLoaded", function() {
   
 
 
-document.getElementById('organizationButton').addEventListener('click', function() {
-    window.open('https://github.com/ChatImproVR', '_blank');
-  });
+// document.getElementById('organizationButton').addEventListener('click', function() {
+//     window.open('https://github.com/ChatImproVR', '_blank');
+//   });
 
 document.getElementById('documentationButton').addEventListener('click', function() {
     window.open('https://github.com/ChatImproVR/chatimprovr/releases', '_blank');
   });
 
-document.getElementById('sourceCodeButton').addEventListener('click', function() {
-    window.open('https://github.com/ChatImproVR/chatimprovr', '_blank');
-  });
+// document.getElementById('sourceCodeButton').addEventListener('click', function() {
+//     window.open('https://github.com/ChatImproVR/chatimprovr', '_blank');
+//   });
 
   
 document.getElementById('theBookButton').addEventListener('click', function() {
